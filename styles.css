@@ -8,4 +8,182 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+header{
+    min-width: 100%;
+    background-color: white;
+    display:flex;
+    font-size:18px;
+}
+
+header h1{
+    float: left;
+    font-size: 18px;
+ }
+ 
+ header ul{
+    list-style-type:none;
+    float: right;
+    font-size: 18px;
+ }
+
+header li{
+    display: inline;
+}
+
+header li a{
+    color: #6b7280;
+    font-weight: bold;
+}
+
+header li a:hover{
+    color:#5A67D8;
+}
+
+.overview-hero{
+    text-align: right;
+    justify-content: center;
+    background-color: #E2E8F0;
+    min-height: 150px;
+}
+.overview-hero-image img{
+    float: left;
+    height:100px;
+    align-items: center;
+    padding:10px;
+    padding-top: 25px;
+}
+
+.learn-about{
+    min-height: 280px;
+}
+
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.card h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+.cards{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+    justify-content: center;
+    text-align: left;
+    margin: 15px;
+}
+
+.card{
+    box-shadow: 3px 5px 8px #888888;
+    width: 300px;
+    height:360px; 
+    border-radius: 5px; 
+    padding: 30px 0;
+    text-align: left;  
+    border-color: #E2E8F0;
+}
+
+.card img{
+    height:140px;
+    padding:5px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    min-height: 180px;
+    margin: 10px;
+    padding:10px;
+}
+
+.testing .container{
+    display: flex;
+    justify-content: center;
+}
+
+.testing p{
+    margin: auto;
+    text-align: left;
+    width: 600px;
+    padding-right: 70px;
+}
+
+.testing-description{
+    text-align: left;
+}
+
+.testing .cta a{
+    background-color: #48BB78;
+    border-radius: 5px;
+    float:right;
+}
+
+.stories{
+    min-height: 480px;
+    padding:20px;
+}
+
+.stories h2, a{
+    color: #5A67D8;    
+}
+
+.stories h3{
+    font-size: 18px;
+}
+
+.stories img{
+    float: left;
+    height:15%;
+    width:15%;
+    border-radius: 50%;
+    padding: 11px;
+    margin:10px;
+}
+
+.newsletter {
+    align-items: center;
+    color: white;
+    background-color: #48BB78;
+}
+
+.newsletter div{
+    padding: 20px 0;
+    justify-content: center;
+    width: 35%;
+}
+
+.newsletter .form-group, .btn{
+    display: inline;
+    padding: 5px;
+}
+
+.newsletter .btn{
+    background-color: #5A67D8;
+    border-radius: 5px;
+    padding:8px 20px;
+    margin-left: 10px;
+    border:none;
+}
+
+input[type=email]{
+    padding: 8px 20px;
+    border:none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #4A5568;
+    color:white;
+    padding:10px;
 }
