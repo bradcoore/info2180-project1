@@ -138,8 +138,9 @@ header li a:hover{
     color: #5A67D8;    
 }
 
-.stories h3{
+.stories h3, a{
     font-size: 18px;
+    
 }
 
 .stories img{
